@@ -1,1 +1,39 @@
 @import 'tailwindcss';
+/* Google fonts link  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@theme {
+  --color-navBg: #141778;
+  --font-lato: 'Lato', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --color-white: #ffffff;
+  --color-secondary: #ff5851;
+  --color-text-primary: #000619;
+  --color-text-secondary: #727272;
+  --color-text-blue: #1920e0;
+  --color-inputBorder: rgba(200, 200, 200, 0.74);
+  --color-inputBg: rgba(245, 245, 255, 0.54);
+  --color-checkBoxBorder: #979797;
+
+  /* Responsive Device Start  */
+  --breakpoint-xs: 350px;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  /* custom mx-auto */
+  --breakpoint-xl: 1155px;
+  --breakpoint-2xl: 1400px;
+  /* Responsive Device End */
+}
+.navItemHover::after {
+  background: linear-gradient(67deg, #ff357d -3.61%, #ff6f33 86.04%);
+}
+.hero-bg {
+  background: linear-gradient(
+    179deg,
+    #5f5fff -82.34%,
+    #5f5fff -82.34%,
+    #f5f5ff 37.14%,
+    #fff 76.07%
+  );
+}
